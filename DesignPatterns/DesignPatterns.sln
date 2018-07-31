@@ -1,0 +1,38 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2042
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01_SimpleFactory", "01_SimpleFactory", "{E5CA7641-D679-43B1-A418-467E012D8364}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleFactory", "SimpleFactory\SimpleFactory.csproj", "{0D0B9A41-1420-4586-BBD5-014B72717ACA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02_AbstractFactory", "02_AbstractFactory", "{7754333B-6FC9-4C20-8900-19C8647B5D19}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03_Singleton", "03_Singleton", "{1580A9D3-7349-4BFB-AA76-54F2195E0081}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "04_Builder", "04_Builder", "{084B18B4-164C-434F-97FA-8CE8EBDD7643}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "05_Prototype", "05_Prototype", "{2437FDB9-C49C-40B8-B172-7CC05A4E645E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0D0B9A41-1420-4586-BBD5-014B72717ACA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0D0B9A41-1420-4586-BBD5-014B72717ACA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0D0B9A41-1420-4586-BBD5-014B72717ACA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0D0B9A41-1420-4586-BBD5-014B72717ACA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{0D0B9A41-1420-4586-BBD5-014B72717ACA} = {E5CA7641-D679-43B1-A418-467E012D8364}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5292B80C-E48C-4557-9340-5F964D715694}
+	EndGlobalSection
+EndGlobal
