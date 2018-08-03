@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Builder.Example;
+using System;
 
 namespace Builder
 {
@@ -6,7 +7,25 @@ namespace Builder
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+
+
+            Example.Builder notebookBuilder = new NoteBookBuilder();
+
+            Example.Builder gameComputerBuilder = new GameComputerBuilder();
+
+            Director director = new Director();
+
+            director.Construct(notebookBuilder);
+            Computer notebook = notebookBuilder.GetComputer();
+            notebook.Processing();
+
+            Console.WriteLine("-------------");
+
+            director.Construct(gameComputerBuilder);
+            Computer gameComputer = gameComputerBuilder.GetComputer();
+            gameComputer.Processing();
+
+            Console.Read();
         }
     }
 }
