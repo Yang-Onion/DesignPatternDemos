@@ -1,4 +1,4 @@
-﻿using FactoryMethod.Log;
+﻿using FactoryMethod.Sample;
 using System;
 using System.Reflection;
 
@@ -15,8 +15,8 @@ namespace FactoryMethod
             //从配置文件读取
             var factoryName = "FileLog";
             LogFactory factory;
-            factory = (LogFactory)Assembly.Load("FactoryMethod").CreateInstance("FactoryMethod.Log." + factoryName);
-            Log.Log log = factory.CreateLog();
+            factory = (LogFactory)Assembly.Load("FactoryMethod").CreateInstance("FactoryMethod.Sample." + factoryName);
+            Log log = factory.CreateLog();
             log.WriteLog();
 
             Console.Read();

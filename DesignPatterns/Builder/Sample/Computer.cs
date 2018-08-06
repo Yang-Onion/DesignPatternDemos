@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace Builder.Example
+namespace Builder.Sample
 {
     /// <summary>
     /// Product

@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Builder.Example
+namespace Builder.Sample
 {
     public class NoteBookBuilder : Builder
     {

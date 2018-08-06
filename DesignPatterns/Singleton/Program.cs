@@ -1,4 +1,4 @@
-﻿using Singleton.Samples;
+﻿using Singleton.Sample;
 using System;
 using System.Threading.Tasks;
 

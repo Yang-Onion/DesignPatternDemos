@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace AbstractFactory.Salary.AmericanSalary
+namespace AbstractFactory.Sample.AmericanSalary
 {
     public class AmericanTax:Tax
     {

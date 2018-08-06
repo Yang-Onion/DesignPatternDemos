@@ -1,4 +1,4 @@
-﻿namespace FactoryMethod.Log
+﻿namespace FactoryMethod.Sample
 {
     public abstract class LogFactory
     {

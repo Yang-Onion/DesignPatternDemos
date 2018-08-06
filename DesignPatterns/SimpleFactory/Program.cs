@@ -1,4 +1,4 @@
-﻿using SimpleFactory.Caculator;
+﻿using SimpleFactory.Sample;
 using System;
 
 namespace SimpleFactory

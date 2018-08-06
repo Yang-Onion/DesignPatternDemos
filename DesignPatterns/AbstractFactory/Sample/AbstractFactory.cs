@@ -1,10 +1,7 @@
-﻿using AbstractFactory.Salary.AmericanSalary;
-using AbstractFactory.Salary.ChineseSalary;
-using System;
-using System.Collections.Generic;
-using System.Text;
+﻿using AbstractFactory.Sample.AmericanSalary;
+using AbstractFactory.Sample.ChineseSalary;
 
-namespace AbstractFactory.Salary
+namespace AbstractFactory.Sample
 {
     public  abstract class AbstractFactory
     {

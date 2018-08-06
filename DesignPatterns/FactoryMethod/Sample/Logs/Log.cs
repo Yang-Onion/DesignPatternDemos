@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace FactoryMethod.Log
+namespace FactoryMethod.Sample
 {
     public abstract class Log
     {

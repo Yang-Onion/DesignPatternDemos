@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace SimpleFactory.Caculator
+namespace SimpleFactory.Sample
 {
     public class SubOperation:Operation
     {

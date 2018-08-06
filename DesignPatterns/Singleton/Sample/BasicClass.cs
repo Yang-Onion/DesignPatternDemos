@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Singleton.Samples
+namespace Singleton.Sample
 {
     public class BasicClass
     {

@@ -1,4 +1,4 @@
-﻿using Builder.Example;
+﻿using Builder.Sample;
 using System;
 
 namespace Builder
@@ -9,9 +9,8 @@ namespace Builder
         {
 
 
-            Example.Builder notebookBuilder = new NoteBookBuilder();
-
-            Example.Builder gameComputerBuilder = new GameComputerBuilder();
+            Sample.Builder notebookBuilder = new NoteBookBuilder();
+            Sample.Builder gameComputerBuilder = new GameComputerBuilder();
 
             Director director = new Director();
 

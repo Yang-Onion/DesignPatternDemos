@@ -6,10 +6,10 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Compile Remove="Example\CpuBuilder.cs" />
-    <Compile Remove="Example\KeyBoardBuilder.cs" />
-    <Compile Remove="Example\MainBoardBuilder.cs" />
-    <Compile Remove="Example\MouseBuilder.cs" />
+    <Compile Remove="Sample\CpuBuilder.cs" />
+    <Compile Remove="Sample\KeyBoardBuilder.cs" />
+    <Compile Remove="Sample\MainBoardBuilder.cs" />
+    <Compile Remove="Sample\MouseBuilder.cs" />
   </ItemGroup>
 
 </Project>

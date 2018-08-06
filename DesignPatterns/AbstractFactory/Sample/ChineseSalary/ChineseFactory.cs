@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace AbstractFactory.Salary.ChineseSalary
+namespace AbstractFactory.Sample.ChineseSalary
 {
     public class ChineseFactory : AbstractFactory
     {

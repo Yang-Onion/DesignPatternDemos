@@ -1,4 +1,5 @@
 ﻿using System;
+using AbstractFactory.Sample;
 
 namespace AbstractFactory
 {
@@ -6,11 +7,11 @@ namespace AbstractFactory
     {
         static void Main(string[] args)
         {
-            var factory = Salary.AbstractFactory.GetInstance(Salary.Constant.FACTORY_NAME);
+            var factory = Sample.AbstractFactory.GetInstance(Constant.FACTORY_NAME);
             var bonus = factory.CreateBonus().Caculate();
             var tax = factory.CreateTax().Caculate();
 
-            var salary = Salary.Constant.BASE_SALARY + bonus - tax;
+            var salary = Constant.BASE_SALARY + bonus - tax;
 
             Console.WriteLine($"Total Salary is :{salary}");
 

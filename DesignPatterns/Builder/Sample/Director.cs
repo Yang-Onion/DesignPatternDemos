@@ -1,4 +1,4 @@
-﻿namespace Builder.Example
+﻿namespace Builder.Sample
 {
     public class Director
     {

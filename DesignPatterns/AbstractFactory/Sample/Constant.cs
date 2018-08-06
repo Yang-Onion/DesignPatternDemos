@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace AbstractFactory.Salary
+namespace AbstractFactory.Sample
 {
     public static class Constant
     {
