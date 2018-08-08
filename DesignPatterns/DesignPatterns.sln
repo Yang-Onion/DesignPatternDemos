@@ -43,7 +43,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "13_Proxy", "13_Proxy", "{A0
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Adapter", "Adapter\Adapter.csproj", "{516A024D-DBB4-4FE6-B123-32E1EC1BBAC9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Composite", "Composite\Composite.csproj", "{C648CA83-D741-41C5-9DD8-E96283792572}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Composite", "Composite\Composite.csproj", "{C648CA83-D741-41C5-9DD8-E96283792572}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Decorate", "Decorate\Decorate.csproj", "{3D5720F8-79AE-41CE-B30F-60545EEF937D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -83,6 +85,10 @@ Global
 		{C648CA83-D741-41C5-9DD8-E96283792572}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C648CA83-D741-41C5-9DD8-E96283792572}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C648CA83-D741-41C5-9DD8-E96283792572}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3D5720F8-79AE-41CE-B30F-60545EEF937D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3D5720F8-79AE-41CE-B30F-60545EEF937D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3D5720F8-79AE-41CE-B30F-60545EEF937D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3D5720F8-79AE-41CE-B30F-60545EEF937D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -96,6 +102,7 @@ Global
 		{0C411A08-53EA-4184-AB23-22B6A3A150EE} = {AB514489-DC9A-4074-83EA-CF3CEFBD633A}
 		{516A024D-DBB4-4FE6-B123-32E1EC1BBAC9} = {C83BA9F2-926E-4450-8262-18BFE0608CF7}
 		{C648CA83-D741-41C5-9DD8-E96283792572} = {C42C0D35-0F8C-4D23-95C7-AF6CA48E34C5}
+		{3D5720F8-79AE-41CE-B30F-60545EEF937D} = {BC626DBC-D3E3-4696-9A1D-8E277587EF24}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {5292B80C-E48C-4557-9340-5F964D715694}
