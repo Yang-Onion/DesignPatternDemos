@@ -7,7 +7,7 @@ namespace AbstractFactory
     {
         static void Main(string[] args)
         {
-            var factory = Sample.AbstractFactory.GetInstance(Constant.FACTORY_NAME);
+            Sample.AbstractFactory factory = new Sample.ChineseSalary.ChineseFactory();
             var bonus = factory.CreateBonus().Caculate();
             var tax = factory.CreateTax().Caculate();
 
